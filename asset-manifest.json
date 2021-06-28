@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/school-scout-fe-pjt-56/static/css/main.b7b9b55d.chunk.css",
-    "main.js": "/school-scout-fe-pjt-56/static/js/main.96f768e1.chunk.js",
-    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.96f768e1.chunk.js.map",
+    "main.css": "/school-scout-fe-pjt-56/static/css/main.2e726b71.chunk.css",
+    "main.js": "/school-scout-fe-pjt-56/static/js/main.eee30be6.chunk.js",
+    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.eee30be6.chunk.js.map",
     "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.9d1a4db5.js",
     "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.9d1a4db5.js.map",
     "static/js/2.7eef4300.chunk.js": "/school-scout-fe-pjt-56/static/js/2.7eef4300.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.02d2f46b.chunk.js": "/school-scout-fe-pjt-56/static/js/3.02d2f46b.chunk.js",
     "static/js/3.02d2f46b.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.02d2f46b.chunk.js.map",
     "index.html": "/school-scout-fe-pjt-56/index.html",
-    "static/css/main.b7b9b55d.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.b7b9b55d.chunk.css.map",
+    "static/css/main.2e726b71.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.2e726b71.chunk.css.map",
     "static/js/2.7eef4300.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.7eef4300.chunk.js.LICENSE.txt",
     "static/media/Explore schools.e37a6d3d.png": "/school-scout-fe-pjt-56/static/media/Explore schools.e37a6d3d.png",
     "static/media/arrow.377a2f2c.svg": "/school-scout-fe-pjt-56/static/media/arrow.377a2f2c.svg",
@@ -55,7 +55,7 @@
   "entrypoints": [
     "static/js/runtime-main.9d1a4db5.js",
     "static/js/2.7eef4300.chunk.js",
-    "static/css/main.b7b9b55d.chunk.css",
-    "static/js/main.96f768e1.chunk.js"
+    "static/css/main.2e726b71.chunk.css",
+    "static/js/main.eee30be6.chunk.js"
   ]
 }
