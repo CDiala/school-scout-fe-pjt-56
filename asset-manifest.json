@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/school-scout-fe-pjt-56/static/css/main.8104808f.chunk.css",
-    "main.js": "/school-scout-fe-pjt-56/static/js/main.dc75eaf1.chunk.js",
-    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.dc75eaf1.chunk.js.map",
-    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.9d1a4db5.js",
-    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.9d1a4db5.js.map",
-    "static/js/2.c1a59e22.chunk.js": "/school-scout-fe-pjt-56/static/js/2.c1a59e22.chunk.js",
-    "static/js/2.c1a59e22.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.c1a59e22.chunk.js.map",
-    "static/js/3.02d2f46b.chunk.js": "/school-scout-fe-pjt-56/static/js/3.02d2f46b.chunk.js",
-    "static/js/3.02d2f46b.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.02d2f46b.chunk.js.map",
+    "main.css": "/school-scout-fe-pjt-56/static/css/main.97499cb5.chunk.css",
+    "main.js": "/school-scout-fe-pjt-56/static/js/main.6640ef61.chunk.js",
+    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.6640ef61.chunk.js.map",
+    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.3f74c3e8.js",
+    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.3f74c3e8.js.map",
+    "static/js/2.c9dc14ae.chunk.js": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js",
+    "static/js/2.c9dc14ae.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js.map",
+    "static/js/3.8e7b017e.chunk.js": "/school-scout-fe-pjt-56/static/js/3.8e7b017e.chunk.js",
+    "static/js/3.8e7b017e.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.8e7b017e.chunk.js.map",
     "index.html": "/school-scout-fe-pjt-56/index.html",
-    "static/css/main.8104808f.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.8104808f.chunk.css.map",
-    "static/js/2.c1a59e22.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.c1a59e22.chunk.js.LICENSE.txt",
+    "static/css/main.97499cb5.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.97499cb5.chunk.css.map",
+    "static/js/2.c9dc14ae.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js.LICENSE.txt",
     "static/media/Explore schools.e37a6d3d.png": "/school-scout-fe-pjt-56/static/media/Explore schools.e37a6d3d.png",
     "static/media/arrow.377a2f2c.svg": "/school-scout-fe-pjt-56/static/media/arrow.377a2f2c.svg",
     "static/media/arrow.d20b3cc2.svg": "/school-scout-fe-pjt-56/static/media/arrow.d20b3cc2.svg",
@@ -25,6 +25,7 @@
     "static/media/facebook.218bbe2e.svg": "/school-scout-fe-pjt-56/static/media/facebook.218bbe2e.svg",
     "static/media/find schorlaship.68f6f32a.png": "/school-scout-fe-pjt-56/static/media/find schorlaship.68f6f32a.png",
     "static/media/globe.b0394308.svg": "/school-scout-fe-pjt-56/static/media/globe.b0394308.svg",
+    "static/media/google.02cd2940.svg": "/school-scout-fe-pjt-56/static/media/google.02cd2940.svg",
     "static/media/graduate.ee5afccb.jpg": "/school-scout-fe-pjt-56/static/media/graduate.ee5afccb.jpg",
     "static/media/graduation.bdff380b.png": "/school-scout-fe-pjt-56/static/media/graduation.bdff380b.png",
     "static/media/Home.css": "/school-scout-fe-pjt-56/static/media/hero-smile.320f287c.png",
@@ -33,6 +34,7 @@
     "static/media/instagram.acaae613.svg": "/school-scout-fe-pjt-56/static/media/instagram.acaae613.svg",
     "static/media/lasu.4297de48.png": "/school-scout-fe-pjt-56/static/media/lasu.4297de48.png",
     "static/media/linkedin.6c4db189.svg": "/school-scout-fe-pjt-56/static/media/linkedin.6c4db189.svg",
+    "static/media/Login.css": "/school-scout-fe-pjt-56/static/media/signup.7c71c755.png",
     "static/media/logo.bb01f5ad.svg": "/school-scout-fe-pjt-56/static/media/logo.bb01f5ad.svg",
     "static/media/medicine.0d37758f.png": "/school-scout-fe-pjt-56/static/media/medicine.0d37758f.png",
     "static/media/medicine.6d6c5d19.png": "/school-scout-fe-pjt-56/static/media/medicine.6d6c5d19.png",
@@ -42,6 +44,7 @@
     "static/media/schorlaship.f42d72a5.png": "/school-scout-fe-pjt-56/static/media/schorlaship.f42d72a5.png",
     "static/media/search.16eaa262.svg": "/school-scout-fe-pjt-56/static/media/search.16eaa262.svg",
     "static/media/search_icon.a9d31465.svg": "/school-scout-fe-pjt-56/static/media/search_icon.a9d31465.svg",
+    "static/media/see.9c053ee4.svg": "/school-scout-fe-pjt-56/static/media/see.9c053ee4.svg",
     "static/media/student.18cc9160.jpg": "/school-scout-fe-pjt-56/static/media/student.18cc9160.jpg",
     "static/media/study.b884de34.jpg": "/school-scout-fe-pjt-56/static/media/study.b884de34.jpg",
     "static/media/testimonial 1.d8276931.png": "/school-scout-fe-pjt-56/static/media/testimonial 1.d8276931.png",
@@ -54,9 +57,9 @@
     "static/media/user.13e0f323.svg": "/school-scout-fe-pjt-56/static/media/user.13e0f323.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d1a4db5.js",
-    "static/js/2.c1a59e22.chunk.js",
-    "static/css/main.8104808f.chunk.css",
-    "static/js/main.dc75eaf1.chunk.js"
+    "static/js/runtime-main.3f74c3e8.js",
+    "static/js/2.c9dc14ae.chunk.js",
+    "static/css/main.97499cb5.chunk.css",
+    "static/js/main.6640ef61.chunk.js"
   ]
 }
