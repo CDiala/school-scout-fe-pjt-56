@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/school-scout-fe-pjt-56/static/css/main.97499cb5.chunk.css",
-    "main.js": "/school-scout-fe-pjt-56/static/js/main.6640ef61.chunk.js",
-    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.6640ef61.chunk.js.map",
-    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.3f74c3e8.js",
-    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.3f74c3e8.js.map",
-    "static/js/2.c9dc14ae.chunk.js": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js",
-    "static/js/2.c9dc14ae.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js.map",
-    "static/js/3.8e7b017e.chunk.js": "/school-scout-fe-pjt-56/static/js/3.8e7b017e.chunk.js",
-    "static/js/3.8e7b017e.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.8e7b017e.chunk.js.map",
+    "main.css": "/school-scout-fe-pjt-56/static/css/main.4613ea50.chunk.css",
+    "main.js": "/school-scout-fe-pjt-56/static/js/main.e6540d8e.chunk.js",
+    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.e6540d8e.chunk.js.map",
+    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.0c9f3b23.js",
+    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.0c9f3b23.js.map",
+    "static/js/2.60ce0f77.chunk.js": "/school-scout-fe-pjt-56/static/js/2.60ce0f77.chunk.js",
+    "static/js/2.60ce0f77.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.60ce0f77.chunk.js.map",
+    "static/js/3.4941f02e.chunk.js": "/school-scout-fe-pjt-56/static/js/3.4941f02e.chunk.js",
+    "static/js/3.4941f02e.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.4941f02e.chunk.js.map",
     "index.html": "/school-scout-fe-pjt-56/index.html",
-    "static/css/main.97499cb5.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.97499cb5.chunk.css.map",
-    "static/js/2.c9dc14ae.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.c9dc14ae.chunk.js.LICENSE.txt",
+    "static/css/main.4613ea50.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.4613ea50.chunk.css.map",
+    "static/js/2.60ce0f77.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.60ce0f77.chunk.js.LICENSE.txt",
     "static/media/Explore schools.e37a6d3d.png": "/school-scout-fe-pjt-56/static/media/Explore schools.e37a6d3d.png",
+    "static/media/Login.css": "/school-scout-fe-pjt-56/static/media/signup.7c71c755.png",
     "static/media/arrow.377a2f2c.svg": "/school-scout-fe-pjt-56/static/media/arrow.377a2f2c.svg",
     "static/media/arrow.d20b3cc2.svg": "/school-scout-fe-pjt-56/static/media/arrow.d20b3cc2.svg",
     "static/media/bookmark.6ba06043.svg": "/school-scout-fe-pjt-56/static/media/bookmark.6ba06043.svg",
@@ -34,11 +35,11 @@
     "static/media/instagram.acaae613.svg": "/school-scout-fe-pjt-56/static/media/instagram.acaae613.svg",
     "static/media/lasu.4297de48.png": "/school-scout-fe-pjt-56/static/media/lasu.4297de48.png",
     "static/media/linkedin.6c4db189.svg": "/school-scout-fe-pjt-56/static/media/linkedin.6c4db189.svg",
-    "static/media/Login.css": "/school-scout-fe-pjt-56/static/media/signup.7c71c755.png",
     "static/media/logo.bb01f5ad.svg": "/school-scout-fe-pjt-56/static/media/logo.bb01f5ad.svg",
     "static/media/medicine.0d37758f.png": "/school-scout-fe-pjt-56/static/media/medicine.0d37758f.png",
     "static/media/medicine.6d6c5d19.png": "/school-scout-fe-pjt-56/static/media/medicine.6d6c5d19.png",
     "static/media/menu-bar.9c74a425.svg": "/school-scout-fe-pjt-56/static/media/menu-bar.9c74a425.svg",
+    "static/media/nosee.96b113e9.svg": "/school-scout-fe-pjt-56/static/media/nosee.96b113e9.svg",
     "static/media/save.7817ae75.svg": "/school-scout-fe-pjt-56/static/media/save.7817ae75.svg",
     "static/media/scholarship.4a352e99.jpg": "/school-scout-fe-pjt-56/static/media/scholarship.4a352e99.jpg",
     "static/media/schorlaship.f42d72a5.png": "/school-scout-fe-pjt-56/static/media/schorlaship.f42d72a5.png",
@@ -57,9 +58,9 @@
     "static/media/user.13e0f323.svg": "/school-scout-fe-pjt-56/static/media/user.13e0f323.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f74c3e8.js",
-    "static/js/2.c9dc14ae.chunk.js",
-    "static/css/main.97499cb5.chunk.css",
-    "static/js/main.6640ef61.chunk.js"
+    "static/js/runtime-main.0c9f3b23.js",
+    "static/js/2.60ce0f77.chunk.js",
+    "static/css/main.4613ea50.chunk.css",
+    "static/js/main.e6540d8e.chunk.js"
   ]
 }
