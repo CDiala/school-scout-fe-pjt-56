@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/school-scout-fe-pjt-56/static/css/main.443432b5.chunk.css",
-    "main.js": "/school-scout-fe-pjt-56/static/js/main.9d4712c6.chunk.js",
-    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.9d4712c6.chunk.js.map",
-    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.ac359024.js",
-    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.ac359024.js.map",
-    "static/js/2.e18145c4.chunk.js": "/school-scout-fe-pjt-56/static/js/2.e18145c4.chunk.js",
-    "static/js/2.e18145c4.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.e18145c4.chunk.js.map",
-    "static/js/3.00aa14e1.chunk.js": "/school-scout-fe-pjt-56/static/js/3.00aa14e1.chunk.js",
-    "static/js/3.00aa14e1.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.00aa14e1.chunk.js.map",
+    "main.css": "/school-scout-fe-pjt-56/static/css/main.39683f76.chunk.css",
+    "main.js": "/school-scout-fe-pjt-56/static/js/main.8e9b1a54.chunk.js",
+    "main.js.map": "/school-scout-fe-pjt-56/static/js/main.8e9b1a54.chunk.js.map",
+    "runtime-main.js": "/school-scout-fe-pjt-56/static/js/runtime-main.36094ff9.js",
+    "runtime-main.js.map": "/school-scout-fe-pjt-56/static/js/runtime-main.36094ff9.js.map",
+    "static/js/2.4bab54c1.chunk.js": "/school-scout-fe-pjt-56/static/js/2.4bab54c1.chunk.js",
+    "static/js/2.4bab54c1.chunk.js.map": "/school-scout-fe-pjt-56/static/js/2.4bab54c1.chunk.js.map",
+    "static/js/3.3369a3ce.chunk.js": "/school-scout-fe-pjt-56/static/js/3.3369a3ce.chunk.js",
+    "static/js/3.3369a3ce.chunk.js.map": "/school-scout-fe-pjt-56/static/js/3.3369a3ce.chunk.js.map",
     "index.html": "/school-scout-fe-pjt-56/index.html",
-    "static/css/main.443432b5.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.443432b5.chunk.css.map",
-    "static/js/2.e18145c4.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.e18145c4.chunk.js.LICENSE.txt",
+    "static/css/main.39683f76.chunk.css.map": "/school-scout-fe-pjt-56/static/css/main.39683f76.chunk.css.map",
+    "static/js/2.4bab54c1.chunk.js.LICENSE.txt": "/school-scout-fe-pjt-56/static/js/2.4bab54c1.chunk.js.LICENSE.txt",
     "static/media/1.0d9f33fe.svg": "/school-scout-fe-pjt-56/static/media/1.0d9f33fe.svg",
     "static/media/2.83ebfbdf.svg": "/school-scout-fe-pjt-56/static/media/2.83ebfbdf.svg",
     "static/media/3.86df65aa.svg": "/school-scout-fe-pjt-56/static/media/3.86df65aa.svg",
@@ -26,6 +26,7 @@
     "static/media/campus.168c2c9a.png": "/school-scout-fe-pjt-56/static/media/campus.168c2c9a.png",
     "static/media/career advisory.bab8ce20.png": "/school-scout-fe-pjt-56/static/media/career advisory.bab8ce20.png",
     "static/media/compare schools.401ce059.png": "/school-scout-fe-pjt-56/static/media/compare schools.401ce059.png",
+    "static/media/CompareSchoolHero.css": "/school-scout-fe-pjt-56/static/media/compare-school.63a338e2.svg",
     "static/media/covenant uni.ccd96e3c.png": "/school-scout-fe-pjt-56/static/media/covenant uni.ccd96e3c.png",
     "static/media/enrollees.2451988a.png": "/school-scout-fe-pjt-56/static/media/enrollees.2451988a.png",
     "static/media/excited.3a8294c4.png": "/school-scout-fe-pjt-56/static/media/excited.3a8294c4.png",
@@ -50,6 +51,7 @@
     "static/media/medicine.6d6c5d19.png": "/school-scout-fe-pjt-56/static/media/medicine.6d6c5d19.png",
     "static/media/menu-bar.9c74a425.svg": "/school-scout-fe-pjt-56/static/media/menu-bar.9c74a425.svg",
     "static/media/nosee.96b113e9.svg": "/school-scout-fe-pjt-56/static/media/nosee.96b113e9.svg",
+    "static/media/rightchoice.1e820178.svg": "/school-scout-fe-pjt-56/static/media/rightchoice.1e820178.svg",
     "static/media/save.7817ae75.svg": "/school-scout-fe-pjt-56/static/media/save.7817ae75.svg",
     "static/media/scholarship.4a352e99.jpg": "/school-scout-fe-pjt-56/static/media/scholarship.4a352e99.jpg",
     "static/media/schorlaship.f42d72a5.png": "/school-scout-fe-pjt-56/static/media/schorlaship.f42d72a5.png",
@@ -69,9 +71,9 @@
     "static/media/user.13e0f323.svg": "/school-scout-fe-pjt-56/static/media/user.13e0f323.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac359024.js",
-    "static/js/2.e18145c4.chunk.js",
-    "static/css/main.443432b5.chunk.css",
-    "static/js/main.9d4712c6.chunk.js"
+    "static/js/runtime-main.36094ff9.js",
+    "static/js/2.4bab54c1.chunk.js",
+    "static/css/main.39683f76.chunk.css",
+    "static/js/main.8e9b1a54.chunk.js"
   ]
 }
