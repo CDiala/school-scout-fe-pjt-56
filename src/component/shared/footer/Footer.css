@@ -10,6 +10,9 @@ body{
     background-color: #10143B;
     max-width: 100%;
     margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 .footer-container-nav{
     display: flex;
