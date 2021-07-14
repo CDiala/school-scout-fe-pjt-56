@@ -488,11 +488,11 @@ p {
 }
 
 .nav-links:nth-of-type(1) {
-  margin-left: 50px;
+  /* margin-left: 40px; */
 }
 
 .nav-links:nth-of-type(2) {
-  margin-left: 122px;
+  margin-left: 100px;
 }
 
 .nav-link {
