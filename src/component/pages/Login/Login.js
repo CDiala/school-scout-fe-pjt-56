@@ -97,7 +97,7 @@ export const Login = () => {
                             <input value={ password } onChange={ (e) => setPassword(e.target.value) } className="app-login-input app-login-input-left" placeholder="Password" type={ !show ? "text" : "password" } />
                             <img onClick={ handleClick } className="app-login-pwd-mask" src= { logo } alt="" />
                         </div>
-                        <Link className="app-login-fgt-pwd" to={process.env.PUBLIC_URL + '/'}>Forgot password?</Link>
+                        <Link className="app-login-fgt-pwd" to={process.env.PUBLIC_URL + '/forgot-password'}>Forgot password?</Link>
                         <button onClick={ () => login() } className="app-login-btn">Login</button>
                         <label className="lbl-or" htmlFor="">OR</label>
                         <button className="app-login-btn-google">
