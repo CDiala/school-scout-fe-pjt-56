@@ -87,7 +87,7 @@ export const SignUp = () => {
                         <div className="app-sgnup-chkbx">
                             <input type="checkbox" name="" id="5"/>I agree to the <Link className="app-sgnup-tnc" to={process.env.PUBLIC_URL + '/'}>Terms and Conditions</Link>
                         </div>
-                        {/* <Link className="app-login-fgt-pwd" to={process.env.PUBLIC_URL + '/'}>Forgot password?</Link> */}
+                        {/* <Link className="app-login-fgt-pwd" to={process.env.PUBLIC_URL + '/forgot-password'}>Forgot password?</Link> */}
                         <button onClick={ () => signUp() } className="app-sgnup-btn">Sign up</button>
                         <label className="lbl-or" htmlFor="">OR</label>
                         <button className="app-login-btn-google">

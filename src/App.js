@@ -5,6 +5,7 @@ import Footer from "./component/shared/footer/Footer";
 import ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
 import Scholarship from "./component/pages/Scholarship/Scholarship";
 import ScholarshipDetails from "./component/pages/ScholarshipDetails/ScholarshipDetails";
+import {ForgotPassword} from "./component/pages/ForgotPassword/ForgotPassword";
 import CareerAdvisoryHome from "./component/comps/CareerAdvisoryHome";
 import CareerAdvisoryPage2 from "./component/comps/CareerAdvisoryPage2";
 import CareerAdvisoryPage3 from "./component/comps/CareerAdvisoryPage3";
@@ -32,6 +33,10 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL + '/login'}>
               <ScholarshipHeaderBlue />
               <Login />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/forgot-password'}>
+              <ScholarshipHeaderBlue />
+              <ForgotPassword />
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/signup'}>
               <ScholarshipHeaderBlue />
