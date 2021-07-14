@@ -429,19 +429,16 @@ p {
 }
 
 /* header section */
-<<<<<<< HEAD
-=======
 .hblue-schpg-container {
-  background: #10143B;
+  background: var(--color-main);
   padding: 33.99px 100px;
-    /* padding-top: 33.99px; */
-    /* padding-bottom: 33.99px; */
+  /* padding-top: 33.99px; */
+  /* padding-bottom: 33.99px; */
 }
 
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .nav-hero-blend {
   /* content: url(/images/hero.jpg); */
-  background-image: url(./images/hero.jpg);
+  background-image: url(../Header/Rectangle\ 96.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* height: 736px; */
@@ -490,17 +487,6 @@ p {
   padding: 0;
 }
 
-<<<<<<< HEAD
-=======
-.nav-links:nth-of-type(1) {
-  /* margin-left: 40px; */
-}
-
-.nav-links:nth-of-type(2) {
-  margin-left: 100px;
-}
-
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .nav-link {
   font-weight: 400;
   margin-left: 20px;
@@ -904,23 +890,13 @@ svg:hover {
 
 .safety-image {
   width: 100%;
-<<<<<<< HEAD
-}
-
-.safety-caption {
-  margin-top: 16px;
-  margin-bottom: 5px;
-=======
   margin-bottom: 16px;
-  max-height: 232px;
-  object-fit: cover;
 }
 
 .safety-caption {
   /* margin-top: 16px; */
   margin-bottom: 5px;
   margin-top: 0;
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 }
 
 .safety-caption a {
@@ -1163,7 +1139,7 @@ svg:hover {
   max-width: 884px;
   display: flex;
   column-gap: 24px;
-  border: 1px solid #B0B0B0;
+  border: 1px solid #b0b0b0;
   border-radius: 10px;
 }
 
@@ -1223,12 +1199,9 @@ svg:hover {
 
 .schlshp-asd-card-body {
   background: grey;
-    border-radius: 15px;
-    overflow: hidden;
-<<<<<<< HEAD
-}
-=======
-    transition: all 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s;
 }
 
 .schlshp-asd-card-body:hover {
@@ -1236,15 +1209,10 @@ svg:hover {
   transform: scale(1.02);
 }
 
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .schlshp-asd-card-body a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .schlshp-asd-card-img {
   display: flex;
   justify-content: center;
@@ -1259,11 +1227,12 @@ svg:hover {
 
 .schlshp-asd-card-grid {
   row-gap: 24px;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.schlshp-asd-card-grid, .schlshp-lst-card-grid {
+.schlshp-asd-card-grid,
+.schlshp-lst-card-grid {
   max-width: fit-content;
   margin: 0;
 }
@@ -1286,7 +1255,7 @@ svg:hover {
 .schlshp-lst-search-input-group {
   align-items: center;
   align-self: center;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   border-radius: 10px;
   display: flex;
   max-width: 476px;
@@ -1301,17 +1270,18 @@ svg:hover {
 }
 
 .schlshp-lst-top-heading {
-    font-size: 40px;
-    line-height: 50px;
-    margin: 0;
-    margin-bottom: 16px;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
-.schlshp-lst-top-body, .schlshp-lst-top-heading {
+.schlshp-lst-top-body,
+.schlshp-lst-top-heading {
   color: #000000;
 }
 
 .schlshp-lst-main-section {
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
