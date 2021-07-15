@@ -1,22 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
 
-.question{
-
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 45px;
-    border-top:1px solid rgb(228, 230, 250);
+.lnd-pg-faq-container {
+    border-radius: 10px;
+    border: 1px solid #D8D8D8;
+    margin: 0 auto 64px;
+    max-width: 891px;
+    padding: 47px 40px 0 42px;
 }
-h2, p{
+
+.lnd-pg-faq-block {
+    /* margin-left: 100px; */
+    margin-top: 32px;
+}
+
+.lnd-pg-faq-block * {
+    color: black;
+}
+
+.lnd-pg-faq-header {
+    font-weight: 500;
+font-size: 40px;
+line-height: 45px;
+}
+
+.lnd-pg-faq-header, .lnd-pg-faq-intro {
+   max-width: 1240px;
+    margin: 0 auto; 
+}
+
+.lnd-pg-faq-intro {
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+.question {
+    align-items: center;
+    border-top:1px solid rgb(228, 230, 250);
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 32px;
+}
+
+.question:nth-of-type(1) {
+    border-top: none;
+    padding-top: 0;
+}
+
+.lnd-pg-faq-question, .lnd-pg-faq-para {
     font-family: 'Hind Vadodara', sans-serif;
 }
-h2{
+
+.lnd-pg-faq-question {
     font-size: 16px;
-    padding-top: 42px
-    ;
+    font-weight: 500;
 }
 
-p{
-    padding: 20px 0;
+.lnd-pg-faq-para {
+    color: #121212;
+    padding: 0 80px 31px 0;
 }

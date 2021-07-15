@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import BookmarkContext from "./Bookmark-Context";
 import SchoolLists from "../pages/ExploreCourses/ExploreCoursesComps/schools/SchoolLists";
-import { ScholarshipHeaderBlue } from "../pages/ExploreCourses/ExploreCoursesComps/ScholarshipHeaderBlue/ScholarshipHeaderBlue";
-import Footer from "../pages/ExploreCourses/ExploreCoursesComps/footer/Footer";
+import { ScholarshipHeaderBlue } from "../shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue";
+import Footer from "../shared/footer/Footer";
 import classes from "../pages/ExploreCourses/ExploreCoursesComps/schools/schoolList.module.css";
 
 function BookmarkPage() {

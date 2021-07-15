@@ -429,8 +429,6 @@ p {
 }
 
 /* header section */
-<<<<<<< HEAD
-=======
 .hblue-schpg-container {
   background: #10143B;
   padding: 33.99px 100px;
@@ -438,7 +436,6 @@ p {
     /* padding-bottom: 33.99px; */
 }
 
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .nav-hero-blend {
   /* content: url(/images/hero.jpg); */
   background-image: url(./images/hero.jpg);
@@ -490,8 +487,6 @@ p {
   padding: 0;
 }
 
-<<<<<<< HEAD
-=======
 .nav-links:nth-of-type(1) {
   /* margin-left: 40px; */
 }
@@ -500,7 +495,6 @@ p {
   margin-left: 100px;
 }
 
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .nav-link {
   font-weight: 400;
   margin-left: 20px;
@@ -904,13 +898,6 @@ svg:hover {
 
 .safety-image {
   width: 100%;
-<<<<<<< HEAD
-}
-
-.safety-caption {
-  margin-top: 16px;
-  margin-bottom: 5px;
-=======
   margin-bottom: 16px;
   max-height: 232px;
   object-fit: cover;
@@ -920,7 +907,6 @@ svg:hover {
   /* margin-top: 16px; */
   margin-bottom: 5px;
   margin-top: 0;
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 }
 
 .safety-caption a {
@@ -1225,9 +1211,6 @@ svg:hover {
   background: grey;
     border-radius: 15px;
     overflow: hidden;
-<<<<<<< HEAD
-}
-=======
     transition: all 0.3s;
 }
 
@@ -1236,15 +1219,10 @@ svg:hover {
   transform: scale(1.02);
 }
 
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .schlshp-asd-card-body a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 54e38e577fbb25a5523379d18e7966f9dbf728b5
 .schlshp-asd-card-img {
   display: flex;
   justify-content: center;
