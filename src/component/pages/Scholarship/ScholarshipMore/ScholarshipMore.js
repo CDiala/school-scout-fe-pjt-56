@@ -1,9 +1,10 @@
 import React from 'react'
 import '../pages/Scholarship/Scholarship.css'
+import { Link } from "react-router-dom"
 
 const ScholarshipMore = () => {
     return (
-        <a href="./" className="btn btn-large btn-primary btn-more">See more</a>
+        <Link to="./" className="btn btn-large btn-primary btn-more">See more</Link>
     )
 }
 

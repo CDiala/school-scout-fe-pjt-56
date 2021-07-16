@@ -1,5 +1,6 @@
 // import React from "react";
 import './Footer.css'
+import { Link } from "react-router-dom"
 import logo from '../../pages/Scholarship/images/logo.svg'
 import arrow from '../../pages/Scholarship/images/arrow.svg'
 import ig from '../../pages/Scholarship/images/instagram.svg'
@@ -25,32 +26,32 @@ const Footer = () => {
           <div className="footer-div footer-col col-2">
             <ul>
               <li>
-                <a href="./">About us</a>
+                <Link to="./">About us</Link>
               </li>
               <li>
-                <a href="./">Explore schools</a>
+                <Link to={process.env.PUBLIC_URL + '/explore-schools'}>Explore schools</Link>
               </li>
               <li>
-                <a href="./">Compare schools</a>
+                <Link to={process.env.PUBLIC_URL + '/compare-schools'}>Compare schools</Link>
               </li>
               <li>
-                <a href="./">Find schorlaship</a>
+                <Link to="./">Find schorlaship</Link>
               </li>
               <li>
-                <a href="./"> Career advisory</a>
+                <Link to="./"> Career advisory</Link>
               </li>
             </ul>
           </div>
           <div className="footer-div footer-col col-3">
             <ul>
               <li>
-                <a href="./">Testimonials</a>
+                <Link to="./">Testimonials</Link>
               </li>
               <li>
-                <a href="./">Review</a>
+                <Link to="./">Review</Link>
               </li>
               <li>
-                <a href="./">Articles</a>
+                <Link to="./">Articles</Link>
               </li>
             </ul>
           </div>
@@ -67,10 +68,10 @@ const Footer = () => {
               </div>
             </form>
             <div className="footer-social-media">
-              <a href="./"><img src={ ig } alt="" /></a>
-              <a href="./"><img src={ li } alt="" /></a>
-              <a href="./"><img src={ tw } alt="" /></a>
-              <a href="./"><img src={ fb } alt="" /></a>
+              <Link to="./"><img src={ ig } alt="" /></Link>
+              <Link to="./"><img src={ li } alt="" /></Link>
+              <Link to="./"><img src={ tw } alt="" /></Link>
+              <Link to="./"><img src={ fb } alt="" /></Link>
             </div>
           </div>
         </div>

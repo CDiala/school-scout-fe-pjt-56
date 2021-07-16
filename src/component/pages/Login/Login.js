@@ -4,6 +4,7 @@ import google from './images/google.svg'
 import see from './images/see.svg'
 import nosee from './images/nosee.svg'
 import { useState } from 'react'
+import { useHistory } from "react-router-dom";
 
 export const Login = () => {
 
@@ -18,6 +19,21 @@ export const Login = () => {
         (show) ? setLogo(see) : setLogo(nosee);
         setShow(!show);
     }
+
+    // function HomeButton() {
+        let history = useHistory();
+        // console.log(history.location.pathname)
+        // console.log(history.)
+        // function handleClick() {
+        //   history.push("/home");
+        // }
+      
+        // return (
+        //   <button type="button" onClick={handleClick}>
+        //     Go home
+        //   </button>
+        // );
+    //   }
 
     // async function userAuth() {
     //     let user = { email, password };
@@ -59,11 +75,11 @@ export const Login = () => {
             alert('Login successful');
             console.log('result.status', result.status, 'result.statusText', result.statusText);
             console.log('feedbacktoday:', Object.keys(feedback).toString(), Object.values(feedback).toString())
-            // localStorage.setItem('session id', JSON.stringify(feedback))
-            localStorage.setItem('session id', Object.values(feedback).toString())
-            if (localStorage.getItem('pre-page')) {
-                document.getElementById('cap-rslt').click()
-            }
+            history.push(process.env.PUBLIC_URL + '/')
+            // localStorage.setItem('session id', Object.values(feedback).toString())
+            // if (localStorage.getItem('pre-page')) {
+            //     document.getElementById('cap-rslt').click()
+            // }
         } else {
             alert(result.status + ': ' + result.statusText);
         }

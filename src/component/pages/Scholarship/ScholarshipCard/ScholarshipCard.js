@@ -1,5 +1,6 @@
 import '../../Scholarship/Scholarship.css';
 import { Card } from '../Card/Card';
+import { Link } from "react-router-dom"
 
 export const ScholarshipCard = () => {
 
@@ -9,7 +10,7 @@ export const ScholarshipCard = () => {
         <figure className="safety-figure">
         <figcaption className="safety-caption">
         <img className="safety-image" src={item.img} alt=""></img>
-          <a href="./">{ item.text }</a>
+          <Link to="./">{ item.text }</Link>
         </figcaption>
       </figure>
       )

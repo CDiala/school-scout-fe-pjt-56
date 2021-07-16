@@ -1,4 +1,5 @@
 import "../Scholarship/Scholarship.css";
+import { Link } from "react-router-dom"
 // import { Card } from "../Card/Card";
 // import ScholarshipCard from "../Scholarship/ScholarshipCard/ScholarshipCard";
 
@@ -12,7 +13,7 @@ export const ScholarshipLikeGrid = (props) => {
         <figure className="safety-figure" key={item.id}>
           <figcaption className="safety-caption">
             <img className="safety-image" src={item.image} alt=""></img>
-            <a href="./">{ item.title }</a>
+            <Link to="./">{ item.title }</Link>
           </figcaption>
         </figure>
       ))}
@@ -27,7 +28,7 @@ export default ScholarshipLikeGrid;
 //     <figure className="safety-figure">
 //     <figcaption className="safety-caption">
 //     <img className="safety-image" src={item.img} alt=""></img>
-//       <a href="./">{ item.text }</a>
+//       <Link to="./">{ item.text }</Link>
 //     </figcaption>
 //   </figure>
 //   )

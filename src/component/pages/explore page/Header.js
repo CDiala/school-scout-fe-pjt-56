@@ -1,10 +1,11 @@
 // import React from 'react'
-import logo from '../component/pages/Scholarship/images/logo.svg'
-import search from '../component/pages/Scholarship/images/search.svg'
-import globe from '../component/pages/Scholarship/images/globe.svg'
-import bookmark from '../component/pages/Scholarship/images/bookmark.svg'
-import user from '../component/pages/Scholarship/images/user.svg'
-import menu from '../component/pages/Scholarship/images/menu-bar.svg'
+import { Link } from "react-router-dom"
+import logo from '../Scholarship/images/logo.svg'
+import search from '../Scholarship/images/search.svg'
+import globe from '../Scholarship/images/globe.svg'
+import bookmark from '../Scholarship/images/bookmark.svg'
+import user from '../Scholarship/images/user.svg'
+import menu from '../Scholarship/images/menu-bar.svg'
 import './Scholarship.css'
 
 export const Header = () => {
@@ -14,42 +15,42 @@ export const Header = () => {
                 <img className="logo" src={ logo } alt="" />
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <a href=".">Explore schools</a>
+                        <Link to={process.env.PUBLIC_URL + '/explore-schools'}>Explore schools</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Compare schools</a>
+                        <Link to={process.env.PUBLIC_URL + '/compare-schools'}>Compare schools</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Find scholarship</a>
+                        <Link to=".">Find scholarship</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Career advisory</a>
+                        <Link to=".">Career advisory</Link>
                     </li>
                 </ul>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to="." className="nav-link-with-image">
                             <img className="svg-icon" src={ search } alt="search icon" />
                             Search
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to="." className="nav-link-with-image">
                             <img className="svg-icon" src={ globe } alt="" />                         
                             Language
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to="." className="nav-link-with-image">
                             <img className="svg-icon" src={ user } alt="" />                           
                             User
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to="." className="nav-link-with-image">
                             <img className="svg-icon" src={ bookmark } alt="" />                           
                             Saved
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <img className="menu" src={ menu } alt="" />
@@ -88,7 +89,7 @@ export const Header = () => {
                                 <option value="doctorate">Australia</option>
                             </select>
                         </div>
-                        <a href="." className="btn btn-small btn-primary btn-search">Search</a>
+                        <Link to="." className="btn btn-small btn-primary btn-search">Search</Link>
                     </form>
                 </div>
             </section>

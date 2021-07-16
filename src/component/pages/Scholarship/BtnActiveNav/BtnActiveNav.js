@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const BtnActiveNav = () => {
     return (
-        <a href="./" className="btn btn-tab btn-secondary">
+        <Link to="./" className="btn btn-tab btn-secondary">
     Undergraduate
-        </a>
+        </Link>
     )
 }
 

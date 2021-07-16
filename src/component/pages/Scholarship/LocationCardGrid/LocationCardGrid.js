@@ -1,6 +1,7 @@
 import React from "react";
 import { ScholarshipCard } from "../ScholarshipCard/ScholarshipCard";
 import "../../Scholarship/Scholarship.css";
+import { Link } from "react-router-dom"
 
 export const LocationCardGrid = () => {
   return (
@@ -10,19 +11,19 @@ export const LocationCardGrid = () => {
         <div className="locations">
           <div className="location-nav">
             <p className="location__text">Search scholarships by locations</p>
-            <a href="./" className="btn btn-tab btn-secondary">
+            <Link to="./" className="btn btn-tab btn-secondary">
               Undergraduate
-            </a>
-            <a href="./" className="btn btn-tab">
+            </Link>
+            <Link to="./" className="btn btn-tab">
               Postgraduate
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-3">
             <ScholarshipCard></ScholarshipCard>
           </div>
-          <a href="./" className="btn btn-large btn-primary btn-more">
+          <Link to="./" className="btn btn-large btn-primary btn-more">
             See more
-          </a>
+          </Link>
         </div>
       </div>
     </section>

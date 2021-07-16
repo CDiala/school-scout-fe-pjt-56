@@ -1,5 +1,6 @@
 import React from "react";
 import '../pages/Scholarship/Scholarship.css'
+import { Link } from "react-router-dom"
 
 const ScholarshipSearch = () => {
   return (
@@ -56,9 +57,9 @@ const ScholarshipSearch = () => {
             <option value="doctorate">Australia</option>
           </select>
         </div>
-        <a href="./" className="btn btn-small btn-primary btn-search">
+        <Link to="./" className="btn btn-small btn-primary btn-search">
           Search
-        </a>
+        </Link>
       </form>
     </div>
   );

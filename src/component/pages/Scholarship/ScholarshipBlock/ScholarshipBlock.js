@@ -1,5 +1,6 @@
 import study from '../images/study.jpg'
 import '../../Scholarship/Scholarship.css'
+import { Link } from "react-router-dom"
 
 export const ScholarshipBlock = () => {
   return (
@@ -17,18 +18,18 @@ export const ScholarshipBlock = () => {
           </div>
           <ul className="nav-links scholarship-nav">
             {/* <li> */}
-              <a href="./">Research</a>
+              <Link to="./">Research</Link>
             {/* </li>
             <li> */}
-              <a href="./">Great essay</a>
+              <Link to="./">Great essay</Link>
             {/* </li>
             <li> */}
-              <a href="./">Apply early</a>
+              <Link to="./">Apply early</Link>
             {/* </li> */}
           </ul>
-          <a className="btn btn-primary btn-xlarge" href="./">
+          <Link to="./" className="btn btn-primary btn-xlarge">
             Get tip
-          </a>
+          </Link>
         </div>
         <div>
             <img

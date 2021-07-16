@@ -20,7 +20,7 @@ p .explore-text{
 .general-pad{
     /* padding: 0 100px; */
     display: flex;
-    margin: 80px auto;
+    padding: 64px 0;
     justify-content: center;
  
 
@@ -47,15 +47,15 @@ p .explore-text{
 }
 .search-courses{
     background: #f2f3ff;
-
 }
+
 .search-container{
     align-items: center;
     justify-content: center;
     margin: auto;
     width: 1240px;
     max-width: 1240px;
-    padding: 100px 0; 
+    /* padding: 64px 0;  */
 
 }
 
@@ -87,4 +87,6 @@ p .explore-text{
 }
 .btn2{
     margin-top: 4rem;
+    text-align: end;
+    margin-right: 10px;
 }

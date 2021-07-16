@@ -1,0 +1,200 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Hind Vadodara;
+        }
+        
+        h1 {
+            width: 555px;
+            height: 40px;
+            left: 93px;
+            top: 754px;
+            /* Sub heading text */
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+            /* identical to box height, or 125% */
+            /* Blue color */
+            color: #10143B;
+        }
+        
+        .compare {
+            margin-left: 92px;
+        }
+        
+        .compare_btn {
+            display: grid;
+            grid-template-columns: 542px 178px;
+            flex-wrap: wrap;
+            object-fit: contain;
+            width: 891px;
+            height: 240px;
+            left: 93px;
+            top: 818px;
+            background: #FFFFFF;
+            /* Grey 5 */
+            border: 1px solid #D8D8D8;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        
+        .compare_input {
+            margin-left: 40px;
+        }
+        
+        .uni_1 .arrow_i,
+        .uni_2 .arrow_i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-10%);
+            left: 530px;
+        }
+        
+        .uni_1,
+        .uni_2 {
+            position: relative;
+            margin-left: 24px;
+        }
+        
+        input {
+            width: 542px;
+            height: 40px;
+            border: none;
+            border-bottom: 1px solid #DCDCDC;
+            font-family: Hind Vadodara;
+            font-size: 16px;
+        }
+        
+        input::placeholder {
+            width: 199.68px;
+            height: 16px;
+            margin-bottom: 40px;
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 100%;
+            /* identical to box height, or 16px */
+            color: #000000;
+        }
+        
+        .uni_1 {
+            margin-top: 42px;
+        }
+        
+        .uni_2 {
+            margin-top: 32px;
+        }
+        
+        .btn_compare button {
+            position: absolute;
+            width: 178px;
+            height: 56px;
+            background: #CFA348;
+            border-radius: 10px;
+            border: none;
+            margin: 136px 40px 48px 90px;
+        }
+        
+        h3 {
+            height: 24px;
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+            color: #0B0E28;
+        }
+        
+        .left_side2 {
+            width: 891px;
+            height: auto;
+            margin-top: 175px;
+            margin-left: 100px;
+        }
+        
+        .school_logos {
+            display: flex;
+            margin-left: 328px;
+            margin-bottom: 32px;
+        }
+        
+        .school_logo2 {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            margin-left: 200px;
+        }
+        
+        .school_logo1 {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        
+        .school_logo2 img,
+        .school_logo1 img {
+            width: 70px;
+            height: 88px;
+            align-self: center;
+        }
+        
+        .ranking,
+        .program,
+        .tuition,
+        .accommodation,
+        .location {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 891px;
+            height: 91px;
+            border-top: 1px solid #C4C4C4;
+            text-align: initial;
+        }
+        
+        .accommodation {
+            border-bottom: 1px solid #C4C4C4;
+        }
+        
+        .fas,
+        .ranking img,
+        .tuition img {
+            margin-right: 40px;
+        }
+        
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 32px;
+            margin-bottom: 90px;
+        }
+        
+        .btn button {
+            width: 130px;
+            height: 56px;
+            left: 393px;
+            top: 1911px;
+            background: #FFFFFF;
+            border: 1px solid #CFA348;
+            box-sizing: border-box;
+            border-radius: 10px;
+            color: #CFA348;
+        }
+        
+        .btn button:first-child {
+            margin-right: 210px;
+        }
+        
+        .btn button:hover {
+            cursor: pointer;
+        }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom"
 import './Navbar.css'
 
 class Navbar extends Component{
@@ -11,18 +12,18 @@ class Navbar extends Component{
                         <nav>
                             <div>
                                 <ul className="nav-center" >
-                                    <li><a href="./">Explore schools</a></li>
-                                    <li><a href="./">Compare schools</a></li>
-                                    <li><a href="./">Find scholarship</a></li>
-                                    <li><a href="./">Career advisory</a></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "./"}>Explore schools</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/compare-schools"}>Compare schools</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "./"}>Find scholarship</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "./"}>Career advisory</Link></li>
                                 </ul>
                             </div>
                         <div>
                             <ul className="nav-right">
-                                <li><a href="./"><i className=" icon fas fa-search"></i>Search</a></li>
-                                <li><a href="./"><i className=" icon fas fa-globe"></i>Language</a></li>
-                                <li><a href="./"><i className=" icon fas fa-user"></i>User</a></li>
-                                <li><a href="./"><i className=" icon fas fa-bookmark"></i>Saved</a></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}><i className=" icon fas fa-search"></i>Search</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}><i className=" icon fas fa-globe"></i>Language</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}><i className=" icon fas fa-user"></i>User</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}><i className=" icon fas fa-bookmark"></i>Saved</Link></li>
                             </ul>
                         </div>
                         </nav>
@@ -41,18 +42,18 @@ class Navbar extends Component{
                         </div>
                         <div className="col col-1">
                             <ul>
-                                <li><a href="./">About us</a></li>
-                                <li><a href="./">Explore schools</a></li>
-                                <li><a href="./">Compare schools</a></li>
-                                <li><a href="./">Find schorlaship</a></li>
-                                <li><a href="./"> Career advisory</a></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>About us</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>Explore schools</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/compare-schools"}>Compare schools</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>Find schorlaship</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}> Career advisory</Link></li>
                             </ul>
                         </div>
                         <div className="col col-1">
                             <ul>
-                                <li><a href="./">Testimonials</a></li>
-                                <li><a href="./">Review</a></li>
-                                <li><a href="./">Articles/blog</a></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>Testimonials</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>Review</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "./"}>Articles/blog</Link></li>
                             </ul>
                         </div>
                         <div className="col col-2">
