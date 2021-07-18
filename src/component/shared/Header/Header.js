@@ -18,10 +18,10 @@ export const Header = () => {
                 <Link to={process.env.PUBLIC_URL + '/'}><img className="logo" src={ logo } alt="" /></Link>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <Link to={process.env.PUBLIC_URL + '/'}>Explore schools</Link>
+                        <Link to={process.env.PUBLIC_URL + '/explore-schools'}>Explore schools</Link>
                     </li>
                     <li className="nav-link">
-                        <Link to={process.env.PUBLIC_URL + '/'}>Compare schools</Link>
+                        <Link to={process.env.PUBLIC_URL + '/compare-schools'}>Compare schools</Link>
                     </li>
                     <li className="nav-link">
                         <Link className="hello" to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>

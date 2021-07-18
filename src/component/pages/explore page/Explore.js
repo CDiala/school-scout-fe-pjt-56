@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import './Explore.css';
 import SchoolCard from './school card/SchoolCard';
 import LocationCard from './Location Card/LocationCard';
 import CourseCard from './Course Card/CourseCard';
-import AllSchools from '../All Schools/AllSchools';
+// import AllSchools from '../All Schools/AllSchools';
 import Header from './Header'
 
 const Explore = () => {
@@ -18,15 +19,15 @@ const Explore = () => {
                             <p className='explore-text'>Browse through our list of schools</p>
                         </div>
                         <div>
-                            <a href="" className='schoolbutton'>Nigerian</a>
-                            <a href="" className='schoolbutton'>International</a>
+                            <Link to="" className='schoolbutton'>Nigerian</Link>
+                            <Link to="" className='schoolbutton'>International</Link>
                         </div>
                     </div>
                     <div className='schools-section'>
                         <SchoolCard/>
                     </div>
                     <div className='btn2'>
-                        <a href="" className='bottombtn'>see all schools</a>
+                        <Link to="" className='bottombtn'>see all schools</Link>
                     </div>
                 </div>
             </section>
@@ -44,11 +45,11 @@ const Explore = () => {
                         </div>
                     </div>
                     <div className='btn2'>
-                        <a href="" className='bottombtn'>see all courses</a>
+                        <Link to="" className='bottombtn'>see all courses</Link>
                     </div>
                 </div>
             </section>
-            <section className='location general-pad'>
+            {/* <section className='location general-pad'>
                 <div className="location-container">
                     <div className='explore-top-section'>
                         <div className='location-top-text'>
@@ -56,18 +57,18 @@ const Explore = () => {
                             <p className='explore-text'>Search for schools in your prefered locations</p>
                         </div>
                         <div>
-                            <a href="" className='schoolbutton'>Nigerian</a>
-                            <a href="" className='schoolbutton'>International</a>
+                            <Link to="" className='schoolbutton'>Nigerian</Link>
+                            <Link to="" className='schoolbutton'>International</Link>
                         </div>
                     </div>
                     <div className='location-section'>
                         <LocationCard/>
                     </div>
-                    {/* <div className='button button-change'>
+                    <div className='button button-change'>
                         <button>See all locations</button>
-                    </div> */}
+                    </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

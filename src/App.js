@@ -11,7 +11,8 @@ import CareerAdvisoryPage2 from "./component/comps/CareerAdvisoryPage2";
 import CareerAdvisoryPage3 from "./component/comps/CareerAdvisoryPage3";
 import CareerAdvisory4 from "./component/comps/CareerAdvisoryPage4";
 import CareerAdvisory5 from "./component/comps/CareerAdvisoryPage5";
-import { CompareSchoolHero } from "./component/pages/CompareSchoolPage/CompareSchoolHero/CompareSchoolHero";
+import Explore from './component/pages/explore page/Explore'
+import { CompareSchoolPage } from "./component/pages/CompareSchoolPage/CompareSchoolPage";
 import { CareerAdvisoryButton } from "./component/comps/CareerAdvisoryButton";
 import { CareerAdvisoryTop } from './component/comps/CareerAdvisoryTop'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -50,9 +51,13 @@ function App() {
               <ScholarshipHeaderBlue />
               <SignUp />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL + '/compare-school'}>
+            <Route exact path={process.env.PUBLIC_URL + '/compare-schools'}>
               <ScholarshipHeaderBlue />
-              <CompareSchoolHero />
+              <CompareSchoolPage />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/explore-schools'}>
+              <Explore />
+              {/* <CompareSchoolPage /> */}
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/scholarship-list'}>
               <ScholarshipHeaderBlue />

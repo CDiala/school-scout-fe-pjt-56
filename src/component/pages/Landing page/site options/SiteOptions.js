@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 //data
 const optionData = [
     {image:explore,option:'Explore Schools', path: process.env.PUBLIC_URL + '/explore-schools'},
-    {image:compare,option:'Compare Schools', path: process.env.PUBLIC_URL + '/compare-school'},
+    {image:compare,option:'Compare Schools', path: process.env.PUBLIC_URL + '/compare-schools'},
     {image:career,option:'Career Advisory', path: process.env.PUBLIC_URL + '/career-advisory'},
     {image:schorlaship,option:'Find Schorlaship', path: process.env.PUBLIC_URL + '/scholarship'},
 ]
